@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Result</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
+            text-align: center;
+            margin: 50px;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        video {
+            max-width: 100%;
+            margin-top: 20px;
+        }
+
+        a {
+            display: block;
+            margin-top: 20px;
+            color: #4caf50;
+            text-decoration: none;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Result</h1>
+    <video controls>
+        <source src="{{ output_filepath }}" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    <a href="{{ url_for('index') }}">Back to Home</a>
+</body>
+
+</html>
