@@ -21,7 +21,7 @@ Install the required dependencies using:
 pip install Flask opencv-python mediapipe
 Getting Started
 1. Clone the repository:
-git clone https://github.com/yourusername/VisualPoseDotInsightAnalyzer.git
+git clone https://github.com/UTPAL14641/VisualPoseDotInsightAnalyzer.git
 cd VisualPoseDotInsightAnalyzer
 2. Install dependencies:
 pip install -r requirements.txt
